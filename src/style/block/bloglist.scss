@@ -1,0 +1,67 @@
+.blog {
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 400px;
+  height: 500px;
+  margin: 10px;
+
+  &__img {
+    width: 100%;
+    max-width: 384px;
+    height: 240px;
+  }
+
+  &__description {
+
+    &__info{
+      font-family: 'Gotham Light', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      color: #7F8A8C;
+    }
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    &__title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Gotham', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      color: #101828;
+    }
+    &__subtitle {
+      font-family: 'Gotham Light', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #475467;
+    }
+  }
+}
+

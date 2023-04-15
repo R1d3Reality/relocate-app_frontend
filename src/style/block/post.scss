@@ -1,0 +1,14 @@
+.post {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .post {
+    flex-direction: column;
+  }
+}

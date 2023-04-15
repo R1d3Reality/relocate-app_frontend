@@ -1,0 +1,28 @@
+.photo__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+}
+.photo__grid__first {
+  width: 100%;
+  max-width: 690px;
+  height: 194px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  max-width: 690px;
+  margin: 5px;
+  gap: 5px;
+}
+
+.row img {
+  width: 100%;
+  max-width: 340px;
+  height: 194px;
+}
+
+/*# sourceMappingURL=photogrid.css.map */

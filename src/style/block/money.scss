@@ -1,0 +1,53 @@
+.money {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+
+  h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 690px;
+    margin-top: 5%;
+  }
+}
+
+.with-border {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.money__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  width: 100%;
+  max-width: 172.5px;
+  height: 175px;
+  text-align: center;
+}
+
+.money__description {
+  display: flex;
+  width: 100%;
+  max-width: 140px;
+  height: 70px;
+  color: #7F8A8C;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .money__info {
+    max-width: 768px;
+  }
+}

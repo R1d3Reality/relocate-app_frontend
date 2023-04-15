@@ -1,0 +1,41 @@
+.money {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  text-align: center;
+}
+.money__info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 690px;
+  height: 150px;
+  margin-top: 5%;
+}
+
+.with-border {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.money__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  width: 100%;
+  max-width: 172.5px;
+  height: 175px;
+  text-align: center;
+}
+
+.money__description {
+  display: flex;
+  width: 100%;
+  max-width: 140px;
+  height: 48px;
+}
+
+/*# sourceMappingURL=money.css.map */
